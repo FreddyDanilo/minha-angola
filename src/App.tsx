@@ -53,7 +53,7 @@ export default function App() {
   });
 
   return (
-    <main>
+    <main className="overflow-y-hidden">
       <section className="relative w-full overflow-hidden hero-section">
         <img
           src="/wallpaper.webp"
